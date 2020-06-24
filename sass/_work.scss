@@ -19,3 +19,13 @@
   grid-column: 3 / 4;
   grid-row: 1/-1;
 }
+
+#work {
+  @media only screen and (max-width: 375px) {
+    .title-1 {
+      &::after {
+        bottom: -60%;
+      }
+    }
+  }
+}
