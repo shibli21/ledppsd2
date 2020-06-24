@@ -1,0 +1,41 @@
+#footer {
+  background: #f8f8f8;
+  color: $color-t2;
+  h1 {
+    font-weight: 600;
+  }
+  h5 {
+    color: $color-t1;
+    font-size: 16px;
+    span {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+  .f-text-1 {
+    font-size: 16px;
+  }
+  .f-text-2 {
+    font-size: 16px;
+  }
+  i {
+    color: $color-2;
+    padding: 10px;
+  }
+
+  //   label {
+  //     background: $color-2;
+  //     color: #fff;
+  //     height: 40px;
+  //   }
+  input {
+    border-radius: 0;
+    width: 10px;
+  }
+  .btn-outline-secondary {
+    border-radius: 0;
+    color: #fff;
+    border: none;
+    background: $color-2;
+  }
+}

@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+body {
+  color: #111;
+  font-family: "poppins";
+}
+
+.title-1 {
+  font-family: "poppins";
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.title-1::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background: #f38181;
+  position: absolute;
+  left: 50%;
+  bottom: -100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.title-2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 28px;
+}
+
+.primary-t {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sec-t1 {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+}
+
+.sec-t1-b {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.sec-t1-b::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background: #f38181;
+  position: absolute;
+  left: 0%;
+  bottom: -120%;
+}
+
+.sec-t2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+}
+
+.sec-t3 {
+  color: #777;
+  font-size: 13px;
+}
+
+#team img {
+  margin-bottom: 20px;
+}
+
+#team .img-box:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, 0.9)), to(rgba(251, 226, 137, 0.9)));
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(251, 226, 137, 0.9));
+}
+
+.partner {
+  background: #f8f8f8;
+}
+
+.partner img {
+  padding: 30px 0;
+}
+
+.gellery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-flow: dense;
+}
+
+.i5 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  grid-row: 1/-1;
+}
+
+#blog .card-img-top-box {
+  position: relative;
+}
+
+#blog .card-img-top-box .card-date {
+  color: #fff;
+  position: absolute;
+  background: #95e1d3;
+  padding: 2px 15px;
+  top: 65%;
+  left: -3%;
+}
+
+#blog .card-img-top-box .card-date h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#blog .card-img-top-box .card-date h5 {
+  margin-top: -10px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#blog .card .card-title {
+  font-size: 14px;
+}
+
+#blog .card .card-text {
+  text-align: justify;
+}
+
+#blog .card .card-footer i {
+  color: #95e1d3;
+}
+
+#blog .card .card-footer p {
+  color: #777;
+  font-weight: 300;
+  padding: 0px 7px;
+  display: inline;
+}
+
+#review {
+  background: url("/img/people_say.jpg") no-repeat/cover;
+}
+
+#review .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+#review .review img {
+  height: 80px;
+  width: 80px;
+  margin-right: 30px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+#review-slide .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#review-slide .review p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #777;
+  font-style: italic;
+  text-align: justify;
+}
+
+#review-slide .review img {
+  height: 170px;
+  width: auto;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+#review-slide .review .r-text {
+  font-family: "Kaushan Script", cursive;
+  font-size: 18px;
+  padding-left: 80px;
+  position: relative;
+}
+
+#review-slide .review .r-text::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background: #f38181;
+  position: absolute;
+  left: 0%;
+  bottom: 8px;
+}
+
+@media only screen and (max-width: 576px) {
+  #review-slide .review {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #review-slide .review img {
+    margin-bottom: 20px;
+  }
+}
+
+#map {
+  background: url("../img/map.jpg");
+}
+
+#map i {
+  color: #f38181;
+}
+
+#map .map-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f38181;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+#map .map-text::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background: #f38181;
+  position: absolute;
+  left: 50%;
+  bottom: -120%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#footer {
+  background: #f8f8f8;
+  color: #777;
+}
+
+#footer h1 {
+  font-weight: 600;
+}
+
+#footer h5 {
+  color: #111;
+  font-size: 16px;
+}
+
+#footer h5 span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#footer .f-text-1 {
+  font-size: 16px;
+}
+
+#footer .f-text-2 {
+  font-size: 16px;
+}
+
+#footer i {
+  color: #95e1d3;
+  padding: 10px;
+}
+
+#footer input {
+  border-radius: 0;
+  width: 10px;
+}
+
+#footer .btn-outline-secondary {
+  border-radius: 0;
+  color: #fff;
+  border: none;
+  background: #95e1d3;
+}
+/*# sourceMappingURL=style.css.map */

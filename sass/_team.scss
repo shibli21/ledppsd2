@@ -1,0 +1,31 @@
+#team {
+  img {
+    margin-bottom: 20px;
+  }
+  .img-box {
+    &:hover {
+      background: linear-gradient(to bottom, $color-4, $color-5);
+    }
+
+    // .social-icons {
+    //   background: $color-3;
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%, -50%);
+
+    //   .icons {
+    //     // background: yellow;
+    //     .ic {
+    //       padding: 8px;
+    //       color: $color-3;
+    //       background: $color-1;
+    //       &:hover {
+    //         color: #fff;
+    //         background: $color-3;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
