@@ -1,0 +1,32 @@
+#service {
+  .card {
+    border-radius: 0;
+    .card-header {
+      background: #fff;
+      h5 {
+        font-weight: 600;
+      }
+    }
+  }
+
+  i {
+    color: $color-2;
+    padding-right: 10px;
+  }
+
+  Button {
+    border: none;
+    float: right;
+    padding: 0;
+    line-height: 1;
+
+    i {
+      color: $color-t2;
+    }
+    &[aria-expanded="false"] {
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

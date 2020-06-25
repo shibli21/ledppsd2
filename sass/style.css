@@ -364,4 +364,37 @@ i {
   border: none;
   background: #95e1d3;
 }
+
+#service .card {
+  border-radius: 0;
+}
+
+#service .card .card-header {
+  background: #fff;
+}
+
+#service .card .card-header h5 {
+  font-weight: 600;
+}
+
+#service i {
+  color: #95e1d3;
+  padding-right: 10px;
+}
+
+#service Button {
+  border: none;
+  float: right;
+  padding: 0;
+  line-height: 1;
+}
+
+#service Button i {
+  color: #777;
+}
+
+#service Button[aria-expanded="false"] i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
 /*# sourceMappingURL=style.css.map */
