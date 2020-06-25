@@ -147,13 +147,6 @@
         margin-bottom: 20px;
       }
     }
-    @media only screen and (max-width: 375px) {
-      .title-1 {
-        &::after {
-          bottom: -60%;
-        }
-      }
-    }
   }
 }
 
