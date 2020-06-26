@@ -395,6 +395,10 @@ i {
   height: 80vh;
 }
 
+#navv #navbar .fa-bars {
+  color: #fff;
+}
+
 #navv #navbar .nav-item .btn-primary {
   border: none;
 }
@@ -471,6 +475,27 @@ h1 {
   font-weight: 700;
 }
 
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .mogo {
+    margin-top: -25px;
+  }
+}
+
 .mogo {
   margin-top: -30px;
   position: relative;
@@ -486,6 +511,12 @@ h1 {
   left: 50%;
   bottom: -20%;
   transform: translateX(-50%);
+}
+
+@media screen and (max-width: 576px) {
+  .mogo {
+    margin-top: -25px;
+  }
 }
 
 .btn-primary {
