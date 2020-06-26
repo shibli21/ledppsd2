@@ -1,23 +1,8 @@
-.gellery {
-  display: grid;
-  //   grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  //   grid-template-rows: auto;
-  grid-auto-flow: dense;
-}
-
-.vr {
-  //   grid-column: span 2;
-  //   grid-row: span 1;
-}
-
-.sq {
-  //   grid-column: span 1;
-}
-
-.i5 {
-  grid-column: 3 / 4;
-  grid-row: 1/-1;
+#work {
+  overflow: hidden;
+  .col-md-6 {
+    padding: 0;
+  }
 }
 
 #work {
@@ -26,6 +11,18 @@
       &::after {
         bottom: -60%;
       }
+    }
+  }
+}
+
+#unique {
+  .main-img {
+    position: relative;
+    .s-img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
 }
