@@ -380,3 +380,121 @@ i {
 #service Button[aria-expanded="false"] i {
   transform: rotate(180deg);
 }
+
+#amazing-service i {
+  font-size: 45px;
+  color: #95e1d3;
+}
+
+#navv {
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(251, 226, 137, 0.9)), url("../img/header.png") no-repeat top/cover;
+  color: #fff;
+}
+
+#navv .hero-box {
+  height: 80vh;
+}
+
+#navv #navbar .nav-item .btn-primary {
+  border: none;
+}
+
+#navv #navbar .nav-item .btn-primary:focus {
+  background: none;
+}
+
+#navv #navbar .nav-item .btn-primary:active {
+  border: transparent;
+}
+
+#navv #navbar .nav-item .btn-primary i {
+  color: #fff;
+}
+
+#navv #navbar .nav-item .btn-primary::after {
+  background: none;
+}
+
+#navv #navbar .nav-item .btn-primary:hover {
+  background: none;
+}
+
+#navv #navbar .nav-item .modal-content {
+  color: #111;
+}
+
+#navv #navbar .nav-item .modal-content input {
+  width: 100%;
+}
+
+#navv #navbar .nav-item .modal-content .btn-primary {
+  color: #fff;
+  background: #f38181;
+}
+
+#navv #navbar .nav-item .modal-content .btn-primary:hover {
+  border: none;
+}
+
+#navv .nav-link {
+  color: #fff;
+  margin-left: 15px;
+}
+
+#navv .nav-link i {
+  color: #fff;
+}
+
+#navv .nav-link:hover {
+  color: #fbe389;
+  border-bottom: 1px solid #fbe389;
+}
+
+@media screen and (max-width: 768px) {
+  #navv .nav-link {
+    margin-left: 0px;
+  }
+}
+
+h3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 5.8rem;
+  font-weight: 700;
+}
+
+.mogo {
+  margin-top: -30px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.mogo::after {
+  content: "";
+  height: 3px;
+  width: 60px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  transform: translateX(-50%);
+}
+
+.btn-primary {
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #fff;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #111;
+}

@@ -1,0 +1,106 @@
+#navv {
+  //   height: 100vh;
+  background: linear-gradient(to bottom, $color-4, $color-5),
+    url("../img/header.png") no-repeat top / cover;
+
+  color: #fff;
+
+  .hero-box {
+    height: 80vh;
+  }
+
+  #navbar {
+    .nav-item {
+      .btn-primary {
+        border: none;
+        &:focus {
+          background: none;
+        }
+
+        &:active {
+          border: transparent;
+        }
+
+        i {
+          color: #fff;
+        }
+        &::after {
+          background: none;
+        }
+        &:hover {
+          background: none;
+        }
+      }
+
+      .modal-content {
+        color: $color-t1;
+        input {
+          width: 100%;
+        }
+
+        .btn-primary {
+          color: #fff;
+          background: $color-3;
+          &:hover {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+  .nav-link {
+    color: #fff;
+    margin-left: 15px;
+
+    i {
+      color: #fff;
+    }
+
+    &:hover {
+      color: $color-1;
+      border-bottom: 1px solid $color-1;
+    }
+
+    @media screen and (max-width: 768px) {
+      margin-left: 0px;
+    }
+  }
+}
+
+h3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+h1 {
+  font-size: 5.8rem;
+  font-weight: 700;
+}
+.mogo {
+  margin-top: -30px;
+  position: relative;
+  margin-bottom: 50px;
+  &::after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translateX(-50%);
+  }
+}
+.btn-primary {
+  background: transparent;
+  border-radius: 0;
+  border: 1px solid #fff;
+  &:hover {
+    background: #fff;
+    color: $color-t1;
+  }
+}
