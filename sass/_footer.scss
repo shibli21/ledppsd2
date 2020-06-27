@@ -33,4 +33,14 @@
     border: none;
     background: $color-2;
   }
+
+  .blog {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    .text {
+      padding-left: 10px;
+      line-height: 0.2;
+    }
+  }
 }
